@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background-color: tomato;
+    height: 150px;
+}
+.headerescrita{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+    font-size: 50px;
+}
+.main{
+    background-color: lawngreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    flex-grow: 1;
+}
+.footer{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    height: 150px;
+}

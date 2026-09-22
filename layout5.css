@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+}
+nav{
+  background-color: #d8bfd8;
+  align-items:center;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  flex-direction: column;
+  gap: 12px;
+}
+nav a{
+  background-color: #ff0000;
+  text-decoration: none;
+  width: 80px;
+  padding: 8px 0;
+  text-align: center;
+  font-size: 12px;
+}
+
+.direito{
+   flex-direction:column;
+   display: flex;
+   flex-grow: 1;
+}
+header{
+  background-color: #ff6b52;
+  align-items: center;
+  justify-content:center;
+  display: flex;
+  height: 90px;
+}
+.meio{
+  flex:1;
+  display: flex;
+}
+article{
+  background-color:lawngreen;
+  align-items: center;
+  justify-content:space-between;
+  flex-direction: column;
+  display: flex;
+  flex: 1;
+  padding: 30px;
+}
+.azul{
+    width: 60%;
+    height: 280px;
+    background-color: rgb(144, 214, 216);
+}
+.rosacaixa{
+    width: 50%;
+    display: flex;
+    justify-content:space-around;
+   
+}
+.rosa{
+  width: 280px;
+  height: 180px;
+  background-color: pink;
+}
+
+aside{
+    width: 180px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.item{
+    width: 60px;
+    height: 60px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+}
+footer{
+    height: 80px;
+    background-color: blueviolet;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
